@@ -34,3 +34,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+#Prompt
+Now on the project containers, when the user's cursor is on the center or when the user hovers at the center (horizontal or vertical), I want the container not to bend and to stand still. When the user's cursor or when the user hovers outside the center (to the sides, to the top and stuff), I want the containers to bend or move dynaically as they are doing now.

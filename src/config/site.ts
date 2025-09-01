@@ -1,0 +1,183 @@
+export type SocialLink = {
+  label: string;
+  href: string;
+};
+
+export type Project = {
+  title: string;
+  description: string;
+  technologies: string[];
+  href?: string;
+  repo?: string;
+  image?: string;
+};
+
+export type Experience = {
+  company: string;
+  role: string;
+  start: string;
+  end: string;
+  summary: string;
+  highlights?: string[];
+};
+
+export type Education = {
+  school: string;
+  degree: string;
+  start: string;
+  end: string;
+};
+
+export const siteConfig = {
+  name: "Kirubel Eshetu",
+  role: "Computer Programmer",
+  location: "Addis Ababa, Ethiopia",
+  email: "kirubelwinner@gmail.com",
+  avatar: "/anime-hacker.jpg",
+  description:
+    "A young programmer focusing on MERN Stack. I try to build projects from real-world experiences I encounter. ኢየሱስ የእግዚአብሔር ልጅ እንደ ሆነ በሚታመን ሁሉ እግዚአብሔር በእርሱ ይኖራል እርሱም በእግዚአብሔር ይኖራል። 1ዮሐንስ 4፡15",
+  keywords: [
+    "Computer Programmer",
+    "Web Developer",
+    "Frontend",
+    "Backend",
+    "Node.js",
+    "Express",
+    "React",
+    "Next.js",
+  ],
+
+  socials: <SocialLink[]>[
+    { label: "Email", href: "mailto:kirubelwinner@gmail.com" },
+    { label: "GitHub", href: "https://github.com/Kirubel-Eshetu" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/kirubel-eshetu-tefera" },
+    { label: "Telegram", href: "https://t.me/KiraFix_tech" },
+    { label: "X/Twitter", href: "https://x.com/@KirubelEshetuTe" },
+  ],
+
+  skills: [
+    "C++",
+    "Java",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "JavaScript",
+    "PHP",
+    "jQuery",
+    "Node.js",
+    "Express.js",
+    "EJS",
+    "git",
+    "Postman",
+    "React",
+    "MongoDB",
+    "TypeScript",
+    "Next.js",
+    "Tailwind CSS",
+  ],
+
+  projects: <Project[]>[
+    {
+      title: "JZPIS",
+      description:
+        "Developed for Final Year Poject Defense, Jimma Zone Prisoner Information System (JZPIS) securely stores prisoner information through a database system.",
+      technologies: ["HTML", "CSS", "Bootstrap", "JS", "PHP", "mySQL", "Python"],
+      href: "https://github.com/Kirubel-Eshetu/JZPIS",
+      repo: "https://github.com/Kirubel-Eshetu/JZPIS"
+    },
+    {
+      title: "CV Kirubel",
+      description:
+        "I made my CV as a webpage and made it accessible on the internet for recruiters. I had my first website deployment Experience. First the webpage was made using HTML & CSS, after learning React I have changed the stack to React.",
+      technologies: ["HTML", "CSS", "REACT"],
+      href: "https://cv-kirubel-eshetu.vercel.app",
+      repo: "https://github.com/Kirubel-Eshetu/Cv-Kirubel-Eshetu"
+    },
+    {
+      title: "Mihiret Bonda",
+      description: "Developed a website for my Mihiret Bonda store. Used HTML,CSS & JS for start and turned it to React later.",
+      technologies: ["HTML", "CSS", "JS", "REACT"],
+      href: "https://mihiret-bonda.vercel.app",
+      repo: "https://github.com/Kirubel-Eshetu/mihiret-bonda"
+    }
+  ],
+
+  experience: <Experience[]>[
+    {
+      company: "INSA",
+      role: "System Developer",
+      start: "Mar 2025",
+      end: "Present",
+      summary:
+        "Worked on bill aggregation platforms for understanding the Derash Bill Aggregator System.",
+      highlights: [
+        "Code update from Legacy Angular 5 to Angular 18.",
+        "Project on Derash Biller and Agent Systems."
+      ],
+    },
+    {
+      company: "iSON Xperiences ",
+      role: "Customer Service Representative",
+      start: "Aug 2024",
+      end: "Dec 2024",
+      summary: "Provided technical support and assistance for Safaricom Ethiopia customers.",
+      highlights: [
+        "Addressed customers inquiries related to network usage and M-Pesa.",
+        "Provided information on new Safaricom services."
+      ]
+    },
+    {
+      company: "Addis Media Network",
+      role: "IT technician and Network Administrator Intern",
+      start: "Jul 2023",
+      end: "Aug 2023",
+      summary: " Worked on maintenance of major Hardware parts and introduced myself to major networking apparatus.",
+      highlights: [
+        "Network installation project",
+        "Hardware maintenance and troubleshooting" 
+      ]
+    }
+  ],
+
+  education: <Education[]>[
+    {
+      school: "Jimma University / Computer Science",
+      degree: "BSc in Computer Science",
+      start: "2021",
+      end: "2024",
+    },
+    {
+      school: "Cisterican Monastery Mariam Tsion / Natural Science",
+      degree: "Deploma in Natural Science",
+      start: "2016",
+      end: "2020"
+
+    },
+    {
+      school: "Cisterican Monastery Mariam Tsion / Elementry Education",
+      degree: "Elementery Education",
+      start: "2013",
+      end: "2016"
+    },
+    {
+      school: "Alemaya Primary School / Primary Education",
+      degree: "5th Grade",
+      start: "2012",
+      end: "2013"
+    },
+    {
+      school: "Eyosias Primary School / Primary Education",
+      degree: "Kg - 4th Grade",
+      start: "2004",
+      end: "2012"
+    }
+
+  ],
+  ogImage: "/next.svg",
+  baseUrl: "https://your-portfolio-domain.com",
+} as const;
+
+export type SiteConfig = typeof siteConfig;
+
+
