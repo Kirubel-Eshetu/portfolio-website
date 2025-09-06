@@ -35,7 +35,7 @@ export const siteConfig = {
   email: "kirubelwinner@gmail.com",
   avatar: "/anime-hacker.jpg",
   description:
-    "A young programmer focusing on MERN Stack. I try to build projects from real-world experiences I encounter. ኢየሱስ የእግዚአብሔር ልጅ እንደ ሆነ በሚታመን ሁሉ እግዚአብሔር በእርሱ ይኖራል እርሱም በእግዚአብሔር ይኖራል። 1ዮሐንስ 4፡15",
+    "👨🏾‍💻 A young programmer from Ethiopia focusing on the MERN Stack. I try to build projects from real-world experiences I encounter.\n\n📖 &ldquo;ለተቀበሉት ሁሉ ግን በስሙ ለሚያምኑት ለእነርሱ የእግዚአብሔር ልጆች ይሆኑ ዘንድ ሥልጣንን ሰጣቸው።&rdquo; ዮሐንስ ወንጌል 1:12 ✝️\n📖 &ldquo;Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God.&rdquo; John 1:12 ✝️",
   keywords: [
     "Computer Programmer",
     "Web Developer",
@@ -53,6 +53,7 @@ export const siteConfig = {
     { label: "LinkedIn", href: "https://www.linkedin.com/in/kirubel-eshetu-tefera" },
     { label: "Telegram", href: "https://t.me/KiraFix_tech" },
     { label: "X/Twitter", href: "https://x.com/@KirubelEshetuTe" },
+    { label: "Youtube", href: "https://www.youtube.com/@KirubelEshetuTefera" },
   ],
 
   skills: [
@@ -175,7 +176,7 @@ export const siteConfig = {
 
   ],
   ogImage: "/next.svg",
-  baseUrl: "https://your-portfolio-domain.com",
+  baseUrl: "https://kirubel-portfolio-website.vercel.app",
 } as const;
 
 export type SiteConfig = typeof siteConfig;

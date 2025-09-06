@@ -19,9 +19,17 @@ export function Hero() {
           <motion.h1 initial={{ opacity: 0, y: 125 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mt-2 text-4xl md:text-6xl font-bold gradient-text">
             {siteConfig.name}
           </motion.h1>
-          <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.25 }} className="mt-4 text-lg text-foreground max-w-2xl">
-            {siteConfig.description}
-          </motion.p>
+          <motion.p 
+            initial={{ opacity: 0 }} 
+            animate={{ opacity: 1 }} 
+            transition={{ delay: 0.25 }} 
+            className="mt-4 text-lg text-foreground max-w-2xl whitespace-pre-line"
+            dangerouslySetInnerHTML={{ 
+              __html: siteConfig.description
+                .replace(/\n/g, '<br />')
+                .replace(/&ldquo;(.*?)&rdquo; (ዮሐንስ ወንጌል 1:12|John 1:12)/g, '<span class="verse-quotes">&ldquo;$1&rdquo; $2</span>')
+            }}
+          />
         </div>
       </div>
       <div className="mt-8 flex gap-4">

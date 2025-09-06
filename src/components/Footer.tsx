@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
-import { FiMail, FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiMail, FiGithub, FiLinkedin, FiTwitter, FiYoutube } from "react-icons/fi";
 import { FaTelegramPlane } from "react-icons/fa";
 
 export function Footer() {
@@ -11,14 +11,14 @@ export function Footer() {
         <div className="flex gap-4 text-xl">
           {(() => {
             const byKey = Object.fromEntries(siteConfig.socials.map(s => [s.label.toLowerCase(), s]));
-            const ordered = [byKey["email"], byKey["github"], byKey["linkedin"], byKey["telegram"], byKey["x/twitter"]].filter(Boolean);
+            const ordered = [byKey["email"], byKey["github"], byKey["linkedin"], byKey["telegram"], byKey["x/twitter"], byKey["youtube"]].filter(Boolean);
             return ordered.map((s) => {
               const label = s!.label.toLowerCase();
-              const Icon = label === "email" ? FiMail : label === "github" ? FiGithub : label === "linkedin" ? FiLinkedin : label === "telegram" ? FaTelegramPlane : FiTwitter;
+              const Icon = label === "email" ? FiMail : label === "github" ? FiGithub : label === "linkedin" ? FiLinkedin : label === "telegram" ? FaTelegramPlane : label === "x/twitter" ? FiTwitter : label === "youtube" ? FiYoutube : FiMail;
               const external = s!.href.startsWith("http");
               return (
                 <Link
-                  key={s!.label}
+                  key={s!.label} 
                   href={s!.href}
                   aria-label={s!.label}
                   target={external ? "_blank" : undefined}

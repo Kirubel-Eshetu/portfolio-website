@@ -6,7 +6,7 @@ export function BlogSection() {
       <p className="text-sm text-foreground/80">
         title: Good News <br />
         excerpt: Believeing in Jesus will get human beings to Heaven. <br />
-        "Jesus answered, 'I am the way and the truth and the life. No one comes to the Father except through me.'" John 14:6
+        &ldquo;Jesus answered, &lsquo;I am the way and the truth and the life. No one comes to the Father except through me.&rsquo;&rdquo; John 14:6
       </p>
       
       <div className="mt-4">
