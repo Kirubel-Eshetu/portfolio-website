@@ -46,7 +46,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 glass border-b border-black/5 dark:border-white/10">
       <div className="mx-auto max-w-6xl px-6 h-14 flex items-center justify-between">
-        <Link href="#" onClick={handleClick} className="font-bold gradient-text">Portfolio</Link>
+        <Link href="#" onClick={handleClick} className="font-bold gradient-text">Godfidence</Link>
         <nav className={cn("hidden md:flex items-center gap-6 text-sm")}>
           {nav.map((item) => (
             <a key={item.href} href={item.href} className={cn("hover:opacity-80", active === item.href && "text-[var(--accent)]")}>
