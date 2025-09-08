@@ -57,13 +57,14 @@ export const siteConfig = {
   ],
 
   skills: [
+    "HTML",
+    "CSS",
     "C++",
     "Java",
     "MySQL",
-    "HTML",
-    "CSS",
-    "Bootstrap",
+    "XML",
     "JavaScript",
+    "Bootstrap",
     "PHP",
     "jQuery",
     "Node.js",
@@ -113,8 +114,8 @@ export const siteConfig = {
       summary:
         "Worked on bill aggregation platforms for understanding the Derash Bill Aggregator System.",
       highlights: [
-        "Code update from Legacy Angular 5 to Angular 18.",
-        "Project on Derash Biller and Agent Systems."
+        "Code update from legacy Angular 5 to Angular 18.",
+        "Project on Derash biller and agent Systems."
       ],
     },
     {
