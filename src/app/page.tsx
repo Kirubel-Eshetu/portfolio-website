@@ -4,7 +4,6 @@ import { SkillsSection } from "@/sections/Skills";
 import { ProjectsSection } from "@/sections/Projects";
 import { ExperienceSection } from "@/sections/Experience";
 import { EducationSection } from "@/sections/Education";
-import { BlogSection } from "@/sections/Blog";
 import { ContactSection } from "@/sections/Contact";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <ProjectsSection />
       <ExperienceSection />
       <EducationSection />
-      <BlogSection />
       <ContactSection />
     </main>
   );

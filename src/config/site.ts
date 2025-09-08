@@ -89,9 +89,17 @@ export const siteConfig = {
       repo: "https://github.com/Kirubel-Eshetu/JZPIS"
     },
     {
+      title: "GitHub Profile",
+      description:
+      "Interactive GitHub profile showcasing my projects, skills, and contributions with an attractive README design.",
+      technologies: ["markdown", "HTML", "CSS", "GitHub"],
+      href: "https://github.com/Kirubel-Eshetu",
+      repo: "https://github.com/Kirubel-Eshetu/Kirubel-Eshetu"
+    },
+    {
       title: "CV Kirubel",
       description:
-        "I made my CV as a webpage and made it accessible on the internet for recruiters. I had my first website deployment Experience. First the webpage was made using HTML & CSS, after learning React I have changed the stack to React.",
+        "Made my CV as a webpage and made it accessible on the internet for recruiters. I had my first website deployment Experience. First the webpage was made using HTML & CSS, after learning React I have changed the stack to React.",
       technologies: ["HTML", "CSS", "REACT"],
       href: "https://cv-kirubel-eshetu.vercel.app",
       repo: "https://github.com/Kirubel-Eshetu/Cv-Kirubel-Eshetu"
