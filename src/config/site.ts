@@ -92,7 +92,7 @@ export const siteConfig = {
       title: "GitHub Profile",
       description:
       "Interactive GitHub profile showcasing my projects, skills, and contributions with an attractive README design.",
-      technologies: ["markdown", "HTML", "CSS", "GitHub"],
+      technologies: ["markdown", "HTML", "CSS", "Git"],
       href: "https://github.com/Kirubel-Eshetu",
       repo: "https://github.com/Kirubel-Eshetu/Kirubel-Eshetu"
     },
