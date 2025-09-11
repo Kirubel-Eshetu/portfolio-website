@@ -185,7 +185,7 @@ export const siteConfig = {
 
   ],
   ogImage: "/next.svg",
-  baseUrl: "https://kirubel-portfolio-website.vercel.app",
+  baseUrl: "https://kirubel-eshetu-portfolio.vercel.app/",
 } as const;
 
 export type SiteConfig = typeof siteConfig;

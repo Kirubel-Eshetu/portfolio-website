@@ -4,21 +4,26 @@ import { Magnetic } from "@/components/Magnetic";
 
 export function SkillsSection() {
   const skillLinks: Record<string, string> = {
-    cplus: "",
-    java: "",
-    mysql: "",
     html: "https://www.w3schools.com/html/",
     css: "https://www.w3schools.com/css/",
-    bootstrap: "https://getbootstrap.com/",
+    cplus: "https://www.w3schools.com/cpp/",
+    java: "https://www.java.com/en/",
+    mysql: "https://www.mysql.com/",
+    xml:"https://www.w3schools.com/xml/",
     javascript: "https://www.w3schools.com/js/",
-    php: "",
-    node: "https://nodejs.org/",
-    express: "https://expressjs.com/",
-    ejs: "",
+    bootstrap: "https://getbootstrap.com/",
+    php: "https://www.php.net/",
+    jquery:"https://jquery.com/",
+    nodejs: "https://nodejs.org/",
+    expressjs: "https://expressjs.com/",
+    ejs: "https://www.npmjs.com/package/ejs",
     git: "https://git-scm.com/",
-    react: "https://react.dev/",
     postman: "https://www.postman.com/",
+    react: "https://react.dev/",
     mongodb: "https://www.mongodb.com/",
+    TypeScript:"https://www.typescriptlang.org/",
+    next: "https://nextjs.org/",
+    tailwind: "https://tailwindcss.com/"
   };
 
   return (
