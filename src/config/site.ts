@@ -35,7 +35,7 @@ export const siteConfig = {
   email: "kirubelwinner@gmail.com",
   avatar: "/anime-hacker.jpg",
   description:
-    "👨🏾‍💻 A young programmer from Ethiopia focusing on the MERN Stack. I try to build projects from real-world experiences I encounter.\n\n📖 &ldquo;ለተቀበሉት ሁሉ ግን በስሙ ለሚያምኑት ለእነርሱ የእግዚአብሔር ልጆች ይሆኑ ዘንድ ሥልጣንን ሰጣቸው።&rdquo; ዮሐንስ ወንጌል 1:12 ✝️\n📖 &ldquo;Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God.&rdquo; John 1:12 ✝️",
+    "👨🏾‍💻 A young programmer from Ethiopia focusing on the MERN stack. Trying to build projects from real-world experiences I encounter.\n\n📖 &ldquo;ለተቀበሉት ሁሉ ግን በስሙ ለሚያምኑት ለእነርሱ የእግዚአብሔር ልጆች ይሆኑ ዘንድ ሥልጣንን ሰጣቸው።&rdquo; ዮሐንስ ወንጌል 1:12 ✝️\n📖 &ldquo;Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God.&rdquo; John 1:12 ✝️",
   keywords: [
     "Computer Programmer",
     "Web Developer",
