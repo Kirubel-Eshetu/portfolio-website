@@ -6,24 +6,24 @@ export function SkillsSection() {
   const skillLinks: Record<string, string> = {
     html: "https://www.w3schools.com/html/",
     css: "https://www.w3schools.com/css/",
-    cplus: "https://www.w3schools.com/cpp/",
+    "c++": "https://www.w3schools.com/cpp/",
     java: "https://www.java.com/en/",
     mysql: "https://www.mysql.com/",
-    xml:"https://www.w3schools.com/xml/",
+    xml: "https://www.w3schools.com/xml/",
     javascript: "https://www.w3schools.com/js/",
     bootstrap: "https://getbootstrap.com/",
     php: "https://www.php.net/",
-    jquery:"https://jquery.com/",
-    nodejs: "https://nodejs.org/",
-    expressjs: "https://expressjs.com/",
+    jquery: "https://jquery.com/",
+    "node.js": "https://nodejs.org/",
+    "express.js": "https://expressjs.com/",
     ejs: "https://www.npmjs.com/package/ejs",
     git: "https://git-scm.com/",
     postman: "https://www.postman.com/",
     react: "https://react.dev/",
     mongodb: "https://www.mongodb.com/",
-    TypeScript:"https://www.typescriptlang.org/",
-    next: "https://nextjs.org/",
-    tailwind: "https://tailwindcss.com/"
+    typescript: "https://www.typescriptlang.org/",
+    "next.js": "https://nextjs.org/",
+    "tailwind css": "https://tailwindcss.com/"
   };
 
   return (

@@ -70,7 +70,7 @@ export const siteConfig = {
     "Node.js",
     "Express.js",
     "EJS",
-    "git",
+    "Git",
     "Postman",
     "React",
     "MongoDB",
@@ -100,14 +100,14 @@ export const siteConfig = {
       title: "CV Kirubel",
       description:
         "Made my CV as a webpage and made it accessible on the internet for recruiters. I had my first website deployment Experience. First the webpage was made using HTML & CSS, after learning React I have changed the stack to React.",
-      technologies: ["HTML", "CSS", "REACT"],
+      technologies: ["HTML", "CSS", "React"],
       href: "https://cv-kirubel-eshetu.vercel.app",
       repo: "https://github.com/Kirubel-Eshetu/Cv-Kirubel-Eshetu"
     },
     {
       title: "Mihiret Bonda",
       description: "Developed a website for my Mihiret Bonda store. Used HTML,CSS & JS for start and turned it to React later.",
-      technologies: ["HTML", "CSS", "JS", "REACT"],
+      technologies: ["HTML", "CSS", "JS", "React"],
       href: "https://mihiret-bonda.vercel.app",
       repo: "https://github.com/Kirubel-Eshetu/mihiret-bonda"
     }
