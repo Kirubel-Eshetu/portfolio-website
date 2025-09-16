@@ -116,7 +116,7 @@ export const siteConfig = {
   experience: <Experience[]>[
     {
       company: "INSA",
-      role: "System Developer",
+      role: "Software Developer",
       start: "Mar 2025",
       end: "Present",
       summary:
