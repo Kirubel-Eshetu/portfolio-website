@@ -5,7 +5,6 @@ import { useMemo, useState } from "react";
 import { TiltCard } from "@/components/TiltCard";
 import { FiGithub } from "react-icons/fi";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { GitHubProfile } from "@/components/GitHubProfile";
 
 const allTags = Array.from(
   new Set(siteConfig.projects.flatMap((p) => p.technologies))

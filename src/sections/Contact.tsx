@@ -48,7 +48,7 @@ export function ContactSection() {
             name="email"
             required
             className="w-full rounded-md border border-accent/100 dark:border-accent/100 px-3 py-2 bg-white dark:bg-transparent placeholder:text-foreground/60 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/40 focus:border-[var(--accent)]/60"
-            placeholder="example@gmail.com"
+            placeholder="dawitgetachew@gmail.com"
           />
         </label>
         <label className="grid gap-2">
@@ -58,14 +58,14 @@ export function ContactSection() {
             required
             rows={5}
             className="w-full rounded-md border border-accent/100 dark:border-accent/100 px-3 py-2 bg-white dark:bg-transparent placeholder:text-foreground/60 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/40 focus:border-[var(--accent)]/60"
-            placeholder="Enter your warm message here ☺️"
+            placeholder={`Enter your warm message here ☺️ \n“ወዳጅ ሆይ፥ ነፍስህ እንደሚከናወን፥ በነገር ሁሉ እንዲከናወንልህና ጤና እንዲኖርህ እጸልያለሁ።” 3ኛ የዮሐንስ መልእክት 1፥2`}
           />
         </label>
         <div className="flex items-center gap-3">
           <button disabled={status === "loading"} className="inline-flex items-center rounded-md bg-accent text-background px-4 py-2 text-sm font-medium hover:opacity-90 disabled:opacity-50">
             {status === "loading" ? "Sending…" : "Send"}
           </button>
-          {status === "success" && <span className="text-sm text-green-500">Sent! I will reply soon.</span>}
+          {status === "success" && <span className="text-sm text-green-500">Sent✅ I will reply soon.</span>}
           {status === "error" && <span className="text-sm text-red500">{error}</span>}
         </div>
       </form>

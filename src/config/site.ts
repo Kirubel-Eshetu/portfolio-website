@@ -84,17 +84,9 @@ export const siteConfig = {
       title: "JZPIS",
       description:
         "Developed for Final Year Poject Defense, Jimma Zone Prisoner Information System (JZPIS) securely stores prisoner information through a database system.",
-      technologies: ["HTML", "CSS", "Bootstrap", "JS", "PHP", "mySQL", "Python"],
+      technologies: ["HTML", "CSS", "Bootstrap", "JS", "PHP", "MySQL", "Python"],
       href: "https://github.com/Kirubel-Eshetu/JZPIS",
       repo: "https://github.com/Kirubel-Eshetu/JZPIS"
-    },
-    {
-      title: "GitHub Profile",
-      description:
-      "Interactive GitHub profile showcasing my projects, skills, and contributions with an attractive README design.",
-      technologies: ["markdown", "HTML", "CSS", "Git"],
-      href: "https://github.com/Kirubel-Eshetu/Kirubel-Eshetu",
-      repo: "https://github.com/Kirubel-Eshetu/Kirubel-Eshetu"
     },
     {
       title: "CV Kirubel",
@@ -110,6 +102,14 @@ export const siteConfig = {
       technologies: ["HTML", "CSS", "JS", "React"],
       href: "https://mihiret-bonda.vercel.app",
       repo: "https://github.com/Kirubel-Eshetu/mihiret-bonda"
+    },
+    {
+      title: "QuoLand",
+      description:
+      "📖 Land of Bible Verses and Inspirational Quotes 💬",
+      technologies: ["HTML", "CSS", "JavaScript", "JSON"],
+      href: "https://quoland.vercel.app/",
+      repo: "https://github.com/Kirubel-Eshetu/QuoLand"
     }
   ],
 
