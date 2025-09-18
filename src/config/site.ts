@@ -85,7 +85,7 @@ export const siteConfig = {
       description:
         "Developed for Final Year Poject Defense, Jimma Zone Prisoner Information System (JZPIS) securely stores prisoner information through a database system.",
       technologies: ["HTML", "CSS", "Bootstrap", "JS", "PHP", "MySQL", "Python"],
-      href: "https://github.com/Kirubel-Eshetu/JZPIS",
+      href: "https://jzpis.vercel.app/",
       repo: "https://github.com/Kirubel-Eshetu/JZPIS"
     },
     {
