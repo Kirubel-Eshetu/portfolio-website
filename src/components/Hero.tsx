@@ -36,8 +36,8 @@ export function Hero() {
         <a href="#projects" className="group inline-flex items-center rounded-md bg-accent text-background px-4 py-2 text-sm font-medium hover:opacity-90 shadow">
           View Projects
         </a>
-        <a href="#contact" className="group inline-flex items-center rounded-md border border-black/10 dark:border-white/20 px-4 py-2 text-sm font-medium hover:bg-black/5 dark:hover:bg-white/10">
-          Contact Me
+        <a href="#experience" className="group inline-flex items-center rounded-md border border-black/10 dark:border-white/100 px-4 py-2 text-sm font-medium hover:bg-accent/5 dark:hover:bg-white/10">
+          My Experience
         </a>
       </div>
       <motion.div
