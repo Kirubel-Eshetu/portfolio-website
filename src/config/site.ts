@@ -97,6 +97,14 @@ export const siteConfig = {
       repo: "https://github.com/Kirubel-Eshetu/Cv-Kirubel-Eshetu"
     },
     {
+      title: "Weather App",
+      descripiton:
+      "This weather app infroms the weather condition of a city you want or based on your current location.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      href: "https://weather-app-ethiopia.vercel.app/",
+      repo: "https://github.com/Kirubel-Eshetu/practice-codes/tree/main/prodigy-infotech-internship/Task-5-Weather-App"
+    },
+    {
       title: "Mihiret Bonda",
       description: "Developed a website for my Mihiret Bonda store. Used HTML,CSS & JS for start and turned it to React later.",
       technologies: ["HTML", "CSS", "JS", "React"],
