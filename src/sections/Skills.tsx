@@ -28,7 +28,7 @@ export function SkillsSection() {
 
   return (
     <Section id="skills" title="Skills" subtitle="What I Use">
-      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {siteConfig.skills.map((s) => {
           const key = s.toLowerCase();
           const href = skillLinks[key];
