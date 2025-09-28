@@ -1,7 +1,7 @@
 # Kirubel Eshetu Portfolio
 
-👤 This is my portfolio buit with Next.js by Vercel.
-🛜 Implemented through a website and hosted on Vercel, this portfolio contains the following information about my self: 
+👤 This is my portfolio buit with Next.js. <br />
+🛜 Implemented through a website and hosted on Vercel, this portfolio contains the following information about my self:-
 
 1️⃣. INTRODUCTION 👉🏾 About me <br />
 2️⃣. WHAT I USE 👉🏾 Skills <br />
@@ -13,4 +13,4 @@
 🖼️ I hope you like the portfolio made. Down below you will find the landing page of the website linked to the URL of the project <br />
 💭 This project is open to any comments and suggesstions you may have. God bless you 🙏🏾
 
-<a href="https://kirubel-eshetu-portfolio.vercel.app/" ><img src = "" alt=""></a>
+<a href="https://kirubel-eshetu-portfolio.vercel.app/" target="_blank" referrerpolicy="no-referrer"><img src = "https://github.com/Kirubel-Eshetu/media-repo/blob/main/my-portfolio.png" alt="Kirubel Eshetu portfolio landing page"></a>
