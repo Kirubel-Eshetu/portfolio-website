@@ -125,7 +125,7 @@ export const siteConfig = {
     {
       company: "INSA",
       role: "Software Developer",
-      start: "Mar 2025",
+      start: "Feb 2025",
       end: "Present",
       summary:
         "Worked on bill aggregation platforms for understanding the Derash Bill Aggregator System.",
