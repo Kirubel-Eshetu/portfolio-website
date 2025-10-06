@@ -10,6 +10,9 @@
 5️⃣. WHAT I STUDIED 👉🏾 Education <br />
 6️⃣. LET'S TALK 👉🏾 Contact 
 
+📱 In the root folder of the project, I have also made avaiable the qr-code of the hosted portfolio. You can scan the QR on your phone for easy of access 🌟 <br />
+📱 The QR code for the website was made using a QR code generator project I have worked on previously 👉🏾 <a href="https://github.com/Kirubel-Eshetu/practice-codes/tree/main/qr-code-generator" target="_blank">QR code generator project</a>
+
 🖼️ I hope you like the portfolio made. Down below you will find the landing page of the website linked to the URL of the project <br />
 💭 This project is open to any comments and suggesstions you may have. God bless you 🙏🏾
 
