@@ -29,23 +29,21 @@ export function SkillsSection() {
     "tailwind css": "https://tailwindcss.com/",
   };
 
-  // Map skill names (lowercased) to logo URLs (SVGs). Prefer Simple Icons slugs.
-  // Use high-contrast variants when possible.
+
   const logoMap: Record<string, string> = {
     html: "https://cdn.simpleicons.org/html5/ef652a",
-    css: "https://cdn.simpleicons.org/css3/2965f1",
+    css: "https://cdn.simpleicons.org/css/2965f1",
     "c++": "https://cdn.simpleicons.org/cplusplus/00599C",
     java: "https://cdn.simpleicons.org/java/007396",
     mysql: "https://cdn.simpleicons.org/mysql/4479A1",
-    xml: "https://cdn.simpleicons.org/w3c/005A9C",
+    xml: "https://cdn.simpleicons.org/xml/005A9C",
     javascript: "https://cdn.simpleicons.org/javascript/F7DF1E",
     bootstrap: "https://cdn.simpleicons.org/bootstrap/7952B3",
     php: "https://cdn.simpleicons.org/php/777BB4",
     jquery: "https://cdn.simpleicons.org/jquery/0769AD",
     "node.js": "https://cdn.simpleicons.org/nodedotjs/339933",
-    // Express: pick white for better contrast on dark and add neutral backdrop circle
-    "express.js": "https://cdn.simpleicons.org/express/FFFFFF",
-    ejs: "https://cdn.simpleicons.org/nodedotjs/339933",
+    "express.js": "https://cdn.simpleicons.org/express/555555",
+    ejs: "https://cdn.simpleicons.org/ejs/339933",
     git: "https://cdn.simpleicons.org/git/F05032",
     postman: "https://cdn.simpleicons.org/postman/FF6C37",
     react: "https://cdn.simpleicons.org/react/61DAFB",
