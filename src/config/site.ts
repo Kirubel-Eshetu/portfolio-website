@@ -101,7 +101,7 @@ export const siteConfig = {
       descripiton:
       "This weather app infroms the weather condition of a city you want or based on your current location.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      href: "https://weather-app-ethiopia.vercel.app/",
+      href: "https://weather-app-krypthon.vercel.app/",
       repo: "https://github.com/Kirubel-Eshetu/practice-codes/tree/main/prodigy-infotech-internship/Task-5-Weather-App"
     },
     {
