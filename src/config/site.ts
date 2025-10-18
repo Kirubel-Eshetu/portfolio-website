@@ -98,7 +98,7 @@ export const siteConfig = {
     },
     {
       title: "Weather App",
-      descripiton:
+      description:
       "This weather app infroms the weather condition of a city you want or based on your current location.",
       technologies: ["HTML", "CSS", "JavaScript"],
       href: "https://weather-app-krypthon.vercel.app/",
