@@ -29,12 +29,11 @@ export function SkillsSection() {
     "tailwind css": "https://tailwindcss.com/",
   };
 
-
   const logoMap: Record<string, string> = {
     html: "https://cdn.simpleicons.org/html5/ef652a",
     css: "https://cdn.simpleicons.org/css/2965f1",
     "c++": "https://cdn.simpleicons.org/cplusplus/00599C",
-    java: "https://cdn.simpleicons.org/java/007396",
+    java: "https://cdn.jsdelivr.net/npm/@programming-languages-logos/java/java.svg",
     mysql: "https://cdn.simpleicons.org/mysql/4479A1",
     xml: "https://cdn.simpleicons.org/xml/005A9C",
     javascript: "https://cdn.simpleicons.org/javascript/F7DF1E",
