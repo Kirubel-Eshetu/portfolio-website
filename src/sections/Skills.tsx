@@ -4,6 +4,7 @@ import { Section } from "@/components/Section";
 import { siteConfig } from "@/config/site";
 import { Magnetic } from "@/components/Magnetic";
 import { useState } from "react";
+import Image from "next/image";
 
 export function SkillsSection() {
   const skillLinks: Record<string, string> = {
@@ -48,7 +49,7 @@ export function SkillsSection() {
     react: "https://cdn.simpleicons.org/react/61DAFB",
     mongodb: "https://cdn.simpleicons.org/mongodb/47A248",
     typescript: "https://cdn.simpleicons.org/typescript/3178C6",
-    "next.js": "https://cdn.simpleicons.org/nextdotjs/111111",
+    "next.js": "https://cdn.simpleicons.org/nextdotjs/444444",
     "tailwind css": "https://cdn.simpleicons.org/tailwindcss/06B6D4",
   };
 
@@ -79,11 +80,14 @@ export function SkillsSection() {
 
         <div className="absolute inset-0 grid place-items-center">
           {logo && !failed ? (
-            <img
+            <Image
               src={logo}
               alt={`${skill} logo`}
+              width={48}
+              height={48}
               className="h-10 w-10 sm:h-12 sm:w-12 opacity-90 transition-transform duration-300 group-hover:scale-110 group-hover:opacity-100"
               loading="lazy"
+              unoptimized
               onError={() => setFailed(true)}
             />
           ) : (
