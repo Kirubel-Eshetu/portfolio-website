@@ -125,7 +125,7 @@ export const siteConfig = {
     {
       company: "INSA",
       role: "Software Developer",
-      start: "Feb 2025",
+      start: "Mar 2025",
       end: "Present",
       summary:
         "Worked on bill aggregation platforms for understanding the Derash Bill Aggregator System.",
@@ -167,7 +167,7 @@ export const siteConfig = {
     },
     {
       school: "Cisterican Monastery Mariam Tsion / Natural Science",
-      degree: "Deploma in Natural Science",
+      degree: "Diploma in Natural Science",
       start: "2016",
       end: "2020"
 
