@@ -83,7 +83,7 @@ export const siteConfig = {
     {
       title: "JZPIS",
       description:
-        "Developed for Final Year Poject Defense, Jimma Zone Prisoner Information System (JZPIS) securely stores prisoner information through a database system.",
+        "🗄 Developed for Final Year Poject Defense, Jimma Zone Prisoner Information System (JZPIS) securely stores prisoner information through a database system.",
       technologies: ["HTML", "CSS", "Bootstrap", "JS", "PHP", "MySQL", "Python"],
       href: "https://jzpis.vercel.app/",
       repo: "https://github.com/Kirubel-Eshetu/JZPIS"
@@ -91,22 +91,29 @@ export const siteConfig = {
     {
       title: "CV Kirubel",
       description:
-        "Made my CV as a webpage and made it accessible on the internet for recruiters. I had my first website deployment Experience. First the webpage was made using HTML & CSS, after learning React I have changed the stack to React.",
+        "👤 Made my CV as a webpage and made it accessible on the internet for recruiters. I had my first website deployment experience. First the webpage was made using HTML & CSS, after learning React, I have changed the stack to it.",
       technologies: ["HTML", "CSS", "React"],
       href: "https://cv-kirubel-eshetu.vercel.app",
       repo: "https://github.com/Kirubel-Eshetu/Cv-Kirubel-Eshetu"
     },
     {
+      title: "Classic Stopwatch",
+      description: "⌛ A stopwatch web application made with HTML, CSS and JavaScript. It helps to track time in HH:MM:SS:CC format implying Hours:Minutes:Seconds:Centiseconds. You can also take breakpoint laps.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      href: "https://classic-stopwatch.vercel.app/",
+      repo: "https://github.com/Kirubel-Eshetu/practice-codes/tree/main/prodigy-infotech/internship-2.0/web-dev-internship/task-2-stopwatch-web-application"
+    },
+    {
       title: "Weather App",
       description:
-      "This weather app infroms the weather condition of a city you want or based on your current location.",
+      "🌤 This weather app informs the weather condition of a city you want or based on your current location.",
       technologies: ["HTML", "CSS", "JavaScript"],
       href: "https://weather-app-krypthon.vercel.app/",
       repo: "https://github.com/Kirubel-Eshetu/practice-codes/tree/main/prodigy-infotech-internship/Task-5-Weather-App"
     },
     {
       title: "Mihiret Bonda",
-      description: "Developed a website for my Mihiret Bonda store. Used HTML,CSS & JS for start and turned it to React later.",
+      description: "👖🌐 Developed a website for my Mihiret Bonda store. Used HTML,CSS & JS for start and turned it to React later.",
       technologies: ["HTML", "CSS", "JS", "React"],
       href: "https://mihiret-bonda.vercel.app",
       repo: "https://github.com/Kirubel-Eshetu/mihiret-bonda"
