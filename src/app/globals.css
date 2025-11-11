@@ -18,7 +18,7 @@
 :root.dark {
   --background: #0a0a0a;
   --foreground: #e5e7eb;
-  --accent: #16c60c;  
+  --accent: #16bd0c;  
 }
 
 body {
@@ -77,6 +77,6 @@ body::before {
 }
 
 .dark .verse-quotes {
-  color: #16c60c;
+  color: #16bd0c;
   font-weight: bold;
 }
