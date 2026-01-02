@@ -16,4 +16,4 @@
 🖼️ I hope you like the portfolio made. Down below you will find the landing page of the website linked to the URL of the project <br />
 💭 This project is open to any comments and suggesstions you may have. God bless you 🙏🏾
 
-<a href="https://kirubel-eshetu-portfolio.vercel.app/" target="_blank" referrerpolicy="no-referrer"><img src = "https://github.com/Kirubel-Eshetu/media-repo/blob/main/my-portfolio.png" alt="Kirubel Eshetu portfolio landing page"></a>
+<a href="https://kirubel-eshetu-portfolio.vercel.app/" target="_blank" referrerpolicy="no-referrer"><img src = "https://github.com/Kirubel-Eshetu/portfolio-website/blob/main/my-portfolio.png" alt="Kirubel Eshetu portfolio landing page"></a>
