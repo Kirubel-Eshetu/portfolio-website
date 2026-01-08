@@ -8,7 +8,7 @@ type Props = {
   volume?: number;
 };
 
-export function MusicToggle({ src = "public/ችላ-አትበል.mp3", loop = true, volume = 0.65 }: Props) {
+export function MusicToggle({ src = "public/ችላ-አትበል.mp3", loop = true, volume = 0.5 }: Props) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isAvailable, setIsAvailable] = useState<boolean | null>(null);
