@@ -99,7 +99,7 @@ export const siteConfig = {
     {
       title: "Classic Stopwatch",
       description: "⌛ A stopwatch web application made with HTML, CSS and JavaScript. It helps to track time in HH:MM:SS:CC format implying Hours:Minutes:Seconds:Centiseconds. You can also take breakpoint laps.",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JS"],
       href: "https://classic-stopwatch.vercel.app/",
       repo: "https://github.com/Kirubel-Eshetu/practice-codes/tree/main/prodigy-infotech/internship-2.0/web-dev-internship/task-2-stopwatch-web-application"
     },
@@ -107,7 +107,7 @@ export const siteConfig = {
       title: "Weather App",
       description:
       "🌤 This weather app informs the weather condition of a city you want or based on your current location.",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JS"],
       href: "https://weather-app-krypthon.vercel.app/",
       repo: "https://github.com/Kirubel-Eshetu/practice-codes/tree/main/prodigy-infotech-internship/Task-5-Weather-App"
     },
@@ -122,8 +122,8 @@ export const siteConfig = {
       title: "QuoLand",
       description:
       "📖 Land of Bible Verses and Inspirational Quotes 💬",
-      technologies: ["HTML", "CSS", "JavaScript", "JSON"],
-      href: "https://quoland.vercel.app/",
+      technologies: ["HTML", "CSS", "JS", "JSON"],
+      href: "https://quoland.netlify.app/",
       repo: "https://github.com/Kirubel-Eshetu/QuoLand"
     }
   ],
@@ -132,7 +132,7 @@ export const siteConfig = {
     {
       company: "INSA",
       role: "Software Developer",
-      start: "Mar 2025",
+      start: "Feb 2025",
       end: "Present",
       summary:
         "Worked on bill aggregation platforms for understanding the Derash Bill Aggregator System.",
